@@ -1,0 +1,8 @@
+.header-title, .header-tabs {
+  display: none;
+}
+
+.menu {
+	padding-left: 16px;	
+	padding-top: 16px;
+}

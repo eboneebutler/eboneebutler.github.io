@@ -1,0 +1,36 @@
+.ld-body .form-basic {
+	width: 900px;
+	background-color: #F7F7F7;
+	border: #D7D7D7 solid 1px;
+	padding: 16px;
+	z-index: 5;
+	font-size: 16px;
+	line-height: normal;
+}
+.ld-body .form-basic h1 {
+	color: #A66E26;
+	font-family: Helvetica, Arial, Geneva, sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	padding-left: 100px;
+	padding-bottom: 16px;
+	line-height: 60%;
+}
+.ld-body .form-basic label {
+	display: inline-block;
+	/*	width: 100px;	*/
+	vertical-align: top;
+	padding-top: 2px;
+}
+.ld-body .form-basic input[type="text"], .ld-body .form-basic input[type="password"], .ld-body .form-basic select {
+	width: 250px;
+}
+.ld-body .form-basic input[type="submit"] {
+	margin-top: 16px;
+}
+
+/* mobile adjustments */
+.ld-mobile .ld-body .form-basic {
+	width: auto;
+}
+
