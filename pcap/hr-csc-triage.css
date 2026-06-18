@@ -1,0 +1,214 @@
+body, table tr td, .content, input[type=text], .labels, label, textarea, .description{
+  font-family: Calibri, Arial, sans-serif;
+  font-size: 18px;
+}
+hr{
+  height: 1px;
+  border-top: 1px dotted #AAA;
+  padding: 0px;
+  margin: 0px;
+}
+table.triage-start-table tr td:last-child{
+	vertical-align: middle;
+}
+table tr td > label {
+	display: inline-block;
+	margin-top: 4px;
+}
+input[type=text] {
+  background-color: #FFFFFF; /* for non-css3 browsers */
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EEEEEE)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #FFF,  #EEE); /* for firefox 3.6+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', endColorStr='#EEEEEE'); /* for IE */
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  border-bottom: 1px solid #AAA;
+  border-right: 1px solid #AAA;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+	padding: 4px 6px;
+	vertical-align: middle;
+}
+input[type=text]:hover {
+  border-top: 1px solid #66F;
+  border-left: 1px solid #66F;
+  border-bottom: 1px solid #66A;
+  border-right: 1px solid #66A;
+}
+.textarea-container textarea{
+	padding: 0px;
+	border: 0px;
+	background-color:transparent;
+	width: 100%;
+	height: auto;
+	overflow-y: scroll;
+	overflow-x: auto;
+}
+.textarea-container{
+  background-color: #FFFFFF; /* for non-css3 browsers */
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EEEEEE)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #FFF,  #EEE); /* for firefox 3.6+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', endColorStr='#EEEEEE'); /* for IE */
+  border-top: 1px solid #CCC;
+  border-left: 1px solid #CCC;
+  border-bottom: 1px solid #AAA;
+  border-right: 1px solid #AAA;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+	padding: 4px 6px;
+/*	position: relative;	*/
+}
+.triage-banner{
+  background-color: #F0F0F0; /* for non-css3 browsers */
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#EEEEEE)); /* for webkit browsers */
+  background: -moz-linear-gradient(top,  #FFFFFF,  #EEEEEE); /* for firefox 3.6+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', endColorStr='#EEEEEE'); /* for IE */
+  border-top: 1px solid #EEE;
+  border-bottom: 1px solid #CCC;
+  margin-top: 0px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 16px;
+  padding: 8px 20px;
+  color: #265583;
+}
+.triage-button{
+  background-color: #F4F4F4;
+  border-top: 1px solid #EEE;
+  border-left: 1px solid #EEE;
+  border-bottom: 1px solid #CCC;
+  border-right: 1px solid #CCC;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  text-align:center;
+  width: 180px;  
+  font-size: 20px;
+  font-weight: bold;
+  vertical-align:middle;
+  line-height: 90%;
+}
+.triage-button div{
+  border-top: 1px solid #FFF;
+  border-left: 1px solid #FFF;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 16px;
+  color: #265583;
+}
+.triage-button div:hover{
+  background: #F7F7F7;
+}
+.triage-button a:hover{
+  text-decoration: none;
+}
+.triage-notebox{
+  border: 1px dotted #AAA;
+  padding: 4px 8px;
+  background-color: #FFFFCC;
+}
+.button-nav{
+	margin-left: 16px;
+}
+.triage-hr-csc-content{
+	margin: 16px 0px;
+	width: auto;
+}
+.triage-hr-csc-content .input-fields{
+	width: 1%;
+}
+.triage-hr-csc-content .input-fields input[type=text]{
+	width: 250px;
+}
+.triage-hr-csc-content .labels{
+	width: 1%;
+	white-space: nowrap;
+	padding-left: 16px;
+  font-family: Calibri, Arial, sans-serif;
+}
+.triage-hr-csc-content .description,
+.triage-hr-csc-content .labels,
+.triage-hr-csc-content .input-fields,
+.triage-hr-csc-content hr{
+	padding-bottom: 4px;
+	vertical-align: top;
+}
+.triage-hr-csc-content hr{
+	margin: 16px;
+}
+.triage-hr-csc-content .triage-notebox {
+	margin: 24px 16px 16px 12px;
+}
+.triage-hr-csc-content p{
+	margin: 0px;
+}
+.triage-hr-csc-content ul{
+	margin: 0px 0px 8px 0px;
+	padding-left: 24px;
+}
+.triage-hr-csc-content .textarea-container {
+	margin-right: 16px;
+}
+.triage-hr-csc-content .instruction{
+	color:#999;
+	font-size:14px;
+}
+.triage-hr-csc-content .description{
+	font-size:14px;
+}
+.triage-indent{
+	display: inline-block;
+	vertical-align:top;
+	width: 32px;
+}
+.triage-hr-csc-content input[type="button"][value="X"],
+.triage-hr-csc-content input[type="button"][value="Edit"] {
+  border-top: 1px solid #DDD;
+  border-left: 1px solid #DDD;
+  border-bottom: 1px solid #AAA;
+  border-right: 1px solid #AAA;
+  font-size: 14px;
+  font-weight: normal;
+  background-color: #F7F7F7; 
+  background: linear-gradient(to bottom,  #F7F7F7,  #E7E7E7); 
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#EEEEEE', endColorStr='#DDDDDD');
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  padding: 6px 10px;
+	margin: 0px 0px 0px 2px;
+  color: #265583;
+	vertical-align: middle;
+	height: auto;
+}
+.triage-hr-csc-content input[type="button"][value="X"]:hover,
+.triage-hr-csc-content input[type="button"][value="Edit"]:hover {
+  background: linear-gradient(to bottom,  #FFF,  #EEE);
+	color: #397EC4;
+}
+.triage-hr-csc-content input[type="button"][value="X"]:active,
+.triage-hr-csc-content input[type="button"][value="Edit"]:active {
+  background: linear-gradient(to bottom,  #EEE,  #FFF);
+	color: #397EC4;
+}
+.triage-hr-csc-content .drillDownDateDropDown{
+	margin-top: 2px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.ld-body a {
+    color: #265583;
+    text-decoration: none;
+}
+

@@ -1,0 +1,109 @@
+/* only styles for input controls on item edit go here */
+
+.ld-body form.form-basic {
+	margin-bottom: 8px;
+	background-color: transparent;
+	border: none;
+	width: 100%;
+	padding: 0px 16px 16px 16px;
+}
+
+.ld-body .form-basic table th {
+	padding-top:4px;
+	white-space: nowrap;
+}
+
+.ld-body .form-basic select,
+.ld-body .form-basic textarea,
+.ld-body .form-basic input,
+.ld-body .form-basic input[type="submit"] {
+	margin-top: 4px;
+}
+
+.ld-body .form-basic .checklist label {
+	white-space: nowrap;
+	display: block;
+}
+
+.ld-body .form-basic .checklist {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ld-body .form-basic label {
+	width: 150px;
+	vertical-align: top;
+}
+
+.ld-body .form-basic input[type="text"],
+.ld-body .form-basic table td input[type="text"] {
+	width: 396px;
+}
+
+
+.ld-body .form-basic table.table-default td input[type="text"] {
+	width: auto;
+}
+
+.ld-body .form-basic textarea {
+	width: 500px;
+}
+
+.ld-body .form-basic textarea {
+	height: 200px;
+}
+
+.ld-body .form-basic input[type="text"].drillDownDateInput {
+	width: 200px;
+}
+
+.ld-body .form-basic .date-dropdown .drillDownDateDropDown {
+	margin-left: 154px;
+}
+
+.ld-body .form-basic .warning {
+	padding-left: 6px;
+	font-size: 11px;
+}
+
+.ld-body {
+	min-height: 300px;
+}
+
+.ld-body .form-basic {
+	width: 800px;
+	padding-top: 0px;
+}
+
+.ld-body .form-basic #STATUS_ID {
+	width: 150px;
+}
+
+.ld-body .form-basic #ESTIMATEDHOURS, .ld-body .form-basic #ACTUALHOURS {
+	width: 80px;
+}
+
+.ld-body h1 {
+	display: none;
+}
+
+.readonly-text {
+	background-color: #F0F0F0;
+	border: #DDD solid 1px;
+	padding: 2px;
+	margin-left: 4px;
+	color: #666;
+}
+
+.uploadFrame {
+	height: 30px;
+	border: none;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	scrolling: none;
+}
+
+.itemtype-custom ol li {
+	vertical-align: middle;
+	padding: 5px;
+}
